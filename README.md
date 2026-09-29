@@ -10,7 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.laudopratico.com.br">🌐 Produto em produção</a> ·
+  <a href="https://www.voicereportapp.com/">🌐 Site do produto</a> ·
+  <a href="https://www.laudopratico.com.br">📱 App em produção</a> ·
   <a href="https://github.com/voicereporttech/voicereport">📦 Repositório original</a> ·
   <a href="docs/arquitetura.md">🏗️ Arquitetura</a> ·
   <a href="docs/desafios-tecnicos.md">🧩 Desafios técnicos</a>
@@ -59,13 +60,27 @@ O **Voice Report** move a produção do laudo para o próprio local da vistoria:
 
 ## Telas
 
-<p align="center">
-  <img src="assets/screenshots/login.png" alt="Tela de login" width="260">
-  &nbsp;&nbsp;
-  <img src="assets/screenshots/solicitar-acesso.png" alt="Tela de solicitação de acesso" width="260">
-</p>
+| Painel inicial | Nova vistoria | Vistoria em campo |
+|:---:|:---:|:---:|
+| <img src="assets/screenshots/01-dashboard.png" alt="Painel inicial" width="230"> | <img src="assets/screenshots/03-nova-vistoria.png" alt="Formulário de nova vistoria" width="230"> | <img src="assets/screenshots/02-vistoria.png" alt="Vistoria ativa com gravação de áudio" width="230"> |
+| Atalhos, equipe e vistorias recentes | Dados do cliente e do empreendimento | Ambientes, texto e gravação de áudio |
 
-<p align="center"><sub>Interface mobile-first com tema claro/escuro. As telas internas (vistoria, laudo, painéis) exigem conta ativa.</sub></p>
+| Histórico | Laudo gerado | Laudo com fotos |
+|:---:|:---:|:---:|
+| <img src="assets/screenshots/04-historico.png" alt="Histórico de vistorias" width="230"> | <img src="assets/screenshots/05-relatorio-topo.png" alt="Laudo técnico gerado" width="230"> | <img src="assets/screenshots/06-relatorio-fotos.png" alt="Laudo com fotos por ambiente" width="230"> |
+| Busca, filtro de status e sincronização | Laudo estruturado pela IA | Fotos embutidas por ambiente |
+
+<details>
+<summary>Telas de acesso</summary>
+<br>
+<p align="center">
+  <img src="assets/screenshots/login.png" alt="Tela de login" width="220">
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/solicitar-acesso.png" alt="Solicitação de acesso" width="220">
+</p>
+</details>
+
+<p align="center"><sub>Telas com dados fictícios de demonstração, extraídas de <a href="https://www.voicereportapp.com/">voicereportapp.com</a>.</sub></p>
 
 ## Principais funcionalidades
 
@@ -120,6 +135,7 @@ Veja os problemas reais resolvidos durante o desenvolvimento em
 
 ## Links
 
-- Produto: <https://www.laudopratico.com.br>
+- Site do produto: <https://www.voicereportapp.com/>
+- App: <https://www.laudopratico.com.br>
 - Repositório original (privado): <https://github.com/voicereporttech/voicereport>
 - Perfil: <https://github.com/daniellpsadm-boop>
