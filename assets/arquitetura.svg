@@ -13,7 +13,7 @@
   <text x="40" y="40" class="h">CLIENTES</text>
   <rect x="40" y="55" width="200" height="62" rx="10" class="box"/>
   <text x="56" y="81" class="t">PWA (web / mobile)</text>
-  <text x="56" y="101" class="s">offline-first · IndexedDB · share target</text>
+  <text x="56" y="101" class="s">offline-first · share target</text>
   <rect x="40" y="130" width="200" height="62" rx="10" class="box"/>
   <text x="56" y="156" class="t">Android (TWA)</text>
   <text x="56" y="176" class="s">Bubblewrap · Play Store (AAB)</text>
@@ -36,7 +36,7 @@
   <rect x="700" y="55" width="220" height="80" rx="10" class="box"/>
   <text x="716" y="81" class="t">Supabase (self-hosted)</text>
   <text x="716" y="101" class="s">Postgres + RLS multi-tenant</text>
-  <text x="716" y="119" class="s">Auth · Storage (mídias, ART, assinaturas)</text>
+  <text x="716" y="119" class="s">Auth · Storage de mídias</text>
   <rect x="700" y="150" width="220" height="62" rx="10" class="box"/>
   <text x="716" y="176" class="t">n8n (workflows de IA)</text>
   <text x="716" y="196" class="s">OpenAI Whisper · GPT-4o / 4o-mini</text>
@@ -59,7 +59,7 @@
     <rect x="220" y="345" width="150" height="70" rx="10" class="box"/>
     <text x="236" y="375" class="t">2. Coleta</text><text x="236" y="396" class="s">áudio, foto, vídeo, texto</text>
     <rect x="400" y="345" width="150" height="70" rx="10" class="box"/>
-    <text x="416" y="375" class="t">3. Checklist</text><text x="416" y="396" class="s">normas ABNT por ambiente</text>
+    <text x="416" y="375" class="t">3. Checklist</text><text x="416" y="396" class="s">normas ABNT</text>
     <rect x="580" y="345" width="150" height="70" rx="10" class="acc"/>
     <text x="596" y="375" class="t">4. Laudo com IA</text><text x="596" y="396" class="s">transcrição + redação</text>
     <rect x="760" y="345" width="160" height="70" rx="10" class="box"/>
