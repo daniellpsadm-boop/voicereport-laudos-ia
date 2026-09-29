@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="960" height="400" fill="#F6F7F9"/>
+  <style>
+    .b{fill:#fff;stroke:#1C1D22;stroke-width:1.5}
+    .ai{fill:#E3F6FA;stroke:#1A8A9C;stroke-width:1.5}
+    .t{font-size:14px;font-weight:600;fill:#1C1D22}
+    .s{font-size:11.5px;fill:#555B66}
+    .h{font-size:12px;font-weight:700;fill:#1A8A9C;letter-spacing:1px}
+    .ln{stroke:#555B66;stroke-width:1.5;fill:none;marker-end:url(#a)}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#555B66"/></marker></defs>
+
+  <text x="30" y="36" class="h">WORKFLOW 1 · TRANSCREVER</text>
+  <rect x="30" y="50" width="130" height="56" rx="9" class="b"/><text x="44" y="74" class="t">Webhook</text><text x="44" y="92" class="s">URLs dos áudios</text>
+  <rect x="185" y="50" width="130" height="56" rx="9" class="b"/><text x="199" y="74" class="t">Baixar áudio</text><text x="199" y="92" class="s">Supabase Storage</text>
+  <rect x="340" y="50" width="130" height="56" rx="9" class="ai"/><text x="354" y="74" class="t">Whisper</text><text x="354" y="92" class="s">transcrição pt-BR</text>
+  <rect x="495" y="50" width="130" height="56" rx="9" class="b"/><text x="509" y="74" class="t">Unificar</text><text x="509" y="92" class="s">ordem + metadados</text>
+  <rect x="650" y="50" width="140" height="56" rx="9" class="ai"/><text x="664" y="74" class="t">Completa ou resumo</text><text x="664" y="92" class="s">GPT-4o-mini</text>
+  <rect x="815" y="50" width="115" height="56" rx="9" class="b"/><text x="829" y="74" class="t">Resposta</text><text x="829" y="92" class="s">texto por mídia</text>
+  <path class="ln" d="M160,78H181"/><path class="ln" d="M315,78H336"/><path class="ln" d="M470,78H491"/><path class="ln" d="M625,78H646"/><path class="ln" d="M790,78H811"/>
+
+  <text x="30" y="156" class="h">WORKFLOW 2 · GERAR LAUDO</text>
+  <rect x="30" y="170" width="130" height="56" rx="9" class="b"/><text x="44" y="194" class="t">Webhook</text><text x="44" y="212" class="s">vistoria completa</text>
+  <rect x="185" y="170" width="130" height="56" rx="9" class="b"/><text x="199" y="194" class="t">Modelo do laudo</text><text x="199" y="212" class="s">DOCX/PDF → texto</text>
+  <rect x="340" y="170" width="130" height="56" rx="9" class="ai"/><text x="354" y="194" class="t">Classificar</text><text x="354" y="212" class="s">GPT-4o por seção</text>
+  <rect x="495" y="170" width="130" height="56" rx="9" class="ai"/><text x="509" y="194" class="t">Redigir laudo</text><text x="509" y="212" class="s">GPT-4o + normas</text>
+  <rect x="650" y="170" width="140" height="56" rx="9" class="b"/><text x="664" y="194" class="t">Formatar</text><text x="664" y="212" class="s">marcadores de mídia</text>
+  <rect x="815" y="170" width="115" height="56" rx="9" class="b"/><text x="829" y="194" class="t">Laudo</text><text x="829" y="212" class="s">editável no app</text>
+  <path class="ln" d="M160,198H181"/><path class="ln" d="M315,198H336"/><path class="ln" d="M470,198H491"/><path class="ln" d="M625,198H646"/><path class="ln" d="M790,198H811"/>
+
+  <text x="30" y="276" class="h">WORKFLOW 3 · REVISAR</text>
+  <rect x="30" y="290" width="130" height="56" rx="9" class="b"/><text x="44" y="314" class="t">Webhook</text><text x="44" y="332" class="s">laudo + instrução</text>
+  <rect x="185" y="290" width="130" height="56" rx="9" class="ai"/><text x="199" y="314" class="t">Revisar</text><text x="199" y="332" class="s">GPT-4o</text>
+  <rect x="340" y="290" width="130" height="56" rx="9" class="b"/><text x="354" y="314" class="t">Resposta</text><text x="354" y="332" class="s">texto revisado</text>
+  <path class="ln" d="M160,318H181"/><path class="ln" d="M315,318H336"/>
+
+  <text x="510" y="306" class="s">No app, o texto final passa por export DOCX/PDF com fotos</text>
+  <text x="510" y="324" class="s">embutidas (normalizadas com sharp), ART/RRT rasterizada,</text>
+  <text x="510" y="342" class="s">assinaturas por cargo e conclusão técnica.</text>
+</svg>

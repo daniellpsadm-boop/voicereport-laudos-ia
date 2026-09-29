@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="960" height="520" fill="#F6F7F9"/>
+  <style>
+    .box{fill:#fff;stroke:#1C1D22;stroke-width:1.5;rx:10}
+    .acc{fill:#E3F6FA;stroke:#1A8A9C;stroke-width:1.5}
+    .t{font-size:15px;font-weight:600;fill:#1C1D22}
+    .s{font-size:12px;fill:#555B66}
+    .h{font-size:12px;font-weight:700;fill:#1A8A9C;letter-spacing:1px}
+    .ln{stroke:#555B66;stroke-width:1.5;fill:none;marker-end:url(#a)}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#555B66"/></marker></defs>
+
+  <text x="40" y="40" class="h">CLIENTES</text>
+  <rect x="40" y="55" width="200" height="62" rx="10" class="box"/>
+  <text x="56" y="81" class="t">PWA (web / mobile)</text>
+  <text x="56" y="101" class="s">offline-first · IndexedDB · share target</text>
+  <rect x="40" y="130" width="200" height="62" rx="10" class="box"/>
+  <text x="56" y="156" class="t">Android (TWA)</text>
+  <text x="56" y="176" class="s">Bubblewrap · Play Store (AAB)</text>
+  <rect x="40" y="205" width="200" height="62" rx="10" class="box"/>
+  <text x="56" y="231" class="t">Desktop Windows</text>
+  <text x="56" y="251" class="s">Electron · instalador NSIS</text>
+
+  <text x="330" y="40" class="h">APLICAÇÃO (VERCEL)</text>
+  <rect x="330" y="55" width="280" height="212" rx="10" class="acc"/>
+  <text x="348" y="83" class="t">Next.js 15 · React 19 · TypeScript</text>
+  <text x="348" y="110" class="s">• App Router + middleware de acesso</text>
+  <text x="348" y="132" class="s">• Rotas de API: gerar / revisar / transcrever</text>
+  <text x="348" y="154" class="s">• Export DOCX (docx) e PDF · sharp · pdfjs</text>
+  <text x="348" y="176" class="s">• Painel admin do tenant e da plataforma</text>
+  <text x="348" y="198" class="s">• Billing: planos Solo / Team (Stripe)</text>
+  <text x="348" y="220" class="s">• Onboarding, assinaturas, modelos de laudo</text>
+  <text x="348" y="242" class="s">• 20 suítes de teste unitário + E2E scripts</text>
+
+  <text x="700" y="40" class="h">SERVIÇOS</text>
+  <rect x="700" y="55" width="220" height="80" rx="10" class="box"/>
+  <text x="716" y="81" class="t">Supabase (self-hosted)</text>
+  <text x="716" y="101" class="s">Postgres + RLS multi-tenant</text>
+  <text x="716" y="119" class="s">Auth · Storage (mídias, ART, assinaturas)</text>
+  <rect x="700" y="150" width="220" height="62" rx="10" class="box"/>
+  <text x="716" y="176" class="t">n8n (workflows de IA)</text>
+  <text x="716" y="196" class="s">OpenAI Whisper · GPT-4o / 4o-mini</text>
+  <rect x="700" y="227" width="104" height="52" rx="10" class="box"/>
+  <text x="716" y="258" class="t">Stripe</text>
+  <rect x="816" y="227" width="104" height="52" rx="10" class="box"/>
+  <text x="832" y="258" class="t">Resend</text>
+
+  <path class="ln" d="M240,86 H325"/>
+  <path class="ln" d="M240,161 H325"/>
+  <path class="ln" d="M240,236 H325"/>
+  <path class="ln" d="M610,95 H695"/>
+  <path class="ln" d="M610,181 H695"/>
+  <path class="ln" d="M610,250 H695"/>
+
+  <text x="40" y="330" class="h">FLUXO DO USUÁRIO EM CAMPO</text>
+  <g font-size="13">
+    <rect x="40" y="345" width="150" height="70" rx="10" class="box"/>
+    <text x="56" y="375" class="t">1. Nova vistoria</text><text x="56" y="396" class="s">cliente, endereço, ART</text>
+    <rect x="220" y="345" width="150" height="70" rx="10" class="box"/>
+    <text x="236" y="375" class="t">2. Coleta</text><text x="236" y="396" class="s">áudio, foto, vídeo, texto</text>
+    <rect x="400" y="345" width="150" height="70" rx="10" class="box"/>
+    <text x="416" y="375" class="t">3. Checklist</text><text x="416" y="396" class="s">normas ABNT por ambiente</text>
+    <rect x="580" y="345" width="150" height="70" rx="10" class="acc"/>
+    <text x="596" y="375" class="t">4. Laudo com IA</text><text x="596" y="396" class="s">transcrição + redação</text>
+    <rect x="760" y="345" width="160" height="70" rx="10" class="box"/>
+    <text x="776" y="375" class="t">5. Revisão e export</text><text x="776" y="396" class="s">assinaturas · DOCX / PDF</text>
+  </g>
+  <path class="ln" d="M190,380 H215"/><path class="ln" d="M370,380 H395"/><path class="ln" d="M550,380 H575"/><path class="ln" d="M730,380 H755"/>
+  <text x="40" y="470" class="s">Sem conexão, a coleta é salva no aparelho (IndexedDB) e sincronizada automaticamente quando a rede volta.</text>
+  <text x="40" y="490" class="s">Mídias recebidas no WhatsApp podem ser enviadas direto para a vistoria pelo menu "Compartilhar" do Android.</text>
+</svg>
